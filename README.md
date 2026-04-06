@@ -2,6 +2,9 @@
 
 An enterprise-grade financial management platform built with a focus on security, scalability, and clean architectural patterns.
 
+<img width="1106" height="553" alt="Screenshot 2026-04-06 at 8 26 31 PM" src="https://github.com/user-attachments/assets/315f3565-c6ef-4d1e-b6de-6438381e7be4" />
+
+
 ## 🏗 Architectural Overview: 3-Tier Design
 
 The backend implements a decoupled **Controller-Service-Repository** pattern. This separation of concerns ensures that business logic, data access, and API orchestration remain isolated, making the system highly maintainable and testable.
@@ -48,5 +51,12 @@ The project underwent a rigorous transition from a prototype to an enterprise-st
 
 ## 🚀 Getting Started
 
-1. **Clone the repo:** ```bash
-   git clone [https://github.com/your-username/zorvyn-dashboard.git](https://github.com/your-username/zorvyn-dashboard.git)
+1.  **Clone the repo:**
+    ```bash
+    git clone [https://github.com/your-username/zorvyn-dashboard.git](https://github.com/your-username/zorvyn-dashboard.git)
+    ```
+2.  **Environment Setup:** Create a `.env` file based on `.env.example`.
+3.  **Run with Docker:**
+    ```bash
+    docker-compose up --build
+    ```
